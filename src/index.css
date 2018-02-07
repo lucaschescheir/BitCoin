@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.NavBar {
+    background: #004a63;
+    height: 100%;
+}
+
+.overview {
+    display: flex;
+    width: 30%;
+    height: 2567px;
+    background: #212e31;
+}
+
+.main-body {
+    display: flex;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 100px 0px;
+}
+
+ul {
+list-style: none;
+text-align: left;
+}
+li {
+    color: white;
+}
+li:hover {
+    background-color: lightgrey;
+}
+
+.link {
+    text-decoration: none;
+    color:white;
+}
