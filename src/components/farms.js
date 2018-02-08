@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class Farms extends Component {
     render() {
         return(
-            <div>
+            <div className="main">
                 <h1>
-                    Farms Page
+                    Farm
                 </h1>
             </div>
         )

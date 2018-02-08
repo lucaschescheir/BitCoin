@@ -1,14 +1,25 @@
+html {
+    background: black;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  height: 100%;
 }
 
 .NavBar {
     background: #004a63;
     height: 100%;
+    text-align: left;
+    font-size: 3em;
 }
-
+.main {
+    font-size: 1.5em;
+    border: 1px solid grey;
+    box-shadow: 3px 3px 3px grey;
+    padding: 30px;
+}
 .overview {
     display: flex;
     width: 30%;
@@ -21,8 +32,10 @@ body {
 }
 
 h1 {
-    font-size: 3em;
-    margin: 100px 0px;
+    font-weight: lighter;
+    font-size: 1em;
+    margin: 50px 0px;
+    color: lightgrey;
 }
 
 ul {
@@ -31,9 +44,11 @@ text-align: left;
 }
 li {
     color: white;
+    padding-left: 5px;
 }
 li:hover {
-    background-color: lightgrey;
+    background-color: grey;
+    border-left: 5px solid #004a63;
 }
 
 .link {

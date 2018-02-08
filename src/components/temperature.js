@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Temperature extends Component {
     render() {
         return(
-            <div>
+            <div className="main">
                 <h1>Temperature Page</h1>
             </div>
         )
